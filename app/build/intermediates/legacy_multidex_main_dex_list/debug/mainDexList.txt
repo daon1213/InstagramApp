@@ -80,6 +80,10 @@ androidx/appcompat/graphics/drawable/DrawerArrowDrawable$ArrowDirection.class
 androidx/appcompat/view/menu/CascadingMenuPopup$HorizPosition.class
 androidx/appcompat/widget/LinearLayoutCompat$DividerMode.class
 androidx/appcompat/widget/LinearLayoutCompat$OrientationMode.class
+androidx/browser/browseractions/BrowserActionsIntent$BrowserActionsItemId.class
+androidx/browser/browseractions/BrowserActionsIntent$BrowserActionsUrlType.class
+androidx/browser/customtabs/CustomTabsService$Relation.class
+androidx/browser/customtabs/CustomTabsService$Result.class
 androidx/coordinatorlayout/widget/CoordinatorLayout$DefaultBehavior.class
 androidx/coordinatorlayout/widget/CoordinatorLayout$DispatchChangeEvent.class
 androidx/core/app/CoreComponentFactory$CompatWrapped.class
@@ -146,6 +150,7 @@ com/bumptech/glide/annotation/GlideType.class
 com/bumptech/glide/annotation/compiler/Index.class
 com/bumptech/glide/gifdecoder/GifDecoder$GifDecodeStatus.class
 com/bumptech/glide/util/Synthetic.class
+com/google/android/gms/auth/api/phone/SmsCodeAutofillClient$PermissionState.class
 com/google/android/gms/common/GoogleSignatureVerifier.class
 com/google/android/gms/common/SignInButton$ButtonSize.class
 com/google/android/gms/common/SignInButton$ColorScheme.class
@@ -157,7 +162,7 @@ com/google/android/gms/common/internal/HideFirstParty.class
 com/google/android/gms/common/internal/ShowFirstParty.class
 com/google/android/gms/common/util/DynamiteApi.class
 com/google/android/gms/common/zzc.class
-com/google/android/gms/common/zzm.class
+com/google/android/gms/common/zzl.class
 com/google/android/gms/internal/measurement/zzae.class
 com/google/android/gms/measurement/internal/AppMeasurementDynamiteService.class
 com/google/android/gms/measurement/internal/zzaf.class
@@ -224,6 +229,8 @@ com/google/firebase/database/Exclude.class
 com/google/firebase/database/IgnoreExtraProperties.class
 com/google/firebase/database/PropertyName.class
 com/google/firebase/database/ThrowOnExtraProperties.class
+com/google/firebase/database/annotations/NotNull.class
+com/google/firebase/database/annotations/Nullable.class
 com/google/firebase/firestore/DocumentId.class
 com/google/firebase/firestore/Exclude.class
 com/google/firebase/firestore/IgnoreExtraProperties.class

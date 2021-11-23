@@ -14,13 +14,11 @@ public class StartActivity extends AppCompatActivity {
 
     Button login, register;
 
-    FirebaseUser firebaseUser;
+    FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
 
     @Override
-    protected void onStart() {
+    public void onStart() {
         super.onStart();
-
-        firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
 
         //check if user is null
         if (firebaseUser != null){

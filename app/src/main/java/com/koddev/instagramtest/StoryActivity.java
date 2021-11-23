@@ -233,9 +233,11 @@ public class StoryActivity extends AppCompatActivity implements StoriesProgressV
         reference.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                User user = dataSnapshot.getValue(User.class);
-                Glide.with(getApplicationContext()).load(user.getImageurl()).into(story_photo);
-                story_username.setText(user.getUsername());
+                if (dataSnapshot.exists()) {
+                    User user = dataSnapshot.getValue(User.class);
+                    Glide.with(getApplicationContext()).load(user.getImageurl()).into(story_photo);
+                    story_username.setText(user.getUsername());
+                }
             }
 
             @Override

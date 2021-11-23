@@ -66,7 +66,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ImageViewHolde
         holder.fullname.setText(user.getFullname());
         Glide.with(mContext).load(user.getImageurl()).into(holder.image_profile);
 
-        if (user.getId().equals(firebaseUser.getUid())){
+        if (firebaseUser.getUid().equals(user.getId())){
             holder.btn_follow.setVisibility(View.GONE);
         }
 
@@ -152,10 +152,12 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ImageViewHolde
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                if (dataSnapshot.child(userid).exists()){
-                    button.setText("following");
-                } else{
-                    button.setText("follow");
+                if (dataSnapshot.exists()) {
+                    if (dataSnapshot.exists()) {
+                        button.setText("following");
+                    } else {
+                        button.setText("follow");
+                    }
                 }
             }
 

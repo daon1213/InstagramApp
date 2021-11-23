@@ -68,11 +68,13 @@ public class EditProfileActivity extends AppCompatActivity {
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                User user = dataSnapshot.getValue(User.class);
-                fullname.setText(user.getFullname());
-                username.setText(user.getUsername());
-                bio.setText(user.getBio());
-                Glide.with(getApplicationContext()).load(user.getImageurl()).into(image_profile);
+                if(dataSnapshot.exists()) {
+                    User user = dataSnapshot.getValue(User.class);
+                    fullname.setText(user.getFullname());
+                    username.setText(user.getUsername());
+                    bio.setText(user.getBio());
+                    Glide.with(getApplicationContext()).load(user.getImageurl()).into(image_profile);
+                }
             }
 
             @Override

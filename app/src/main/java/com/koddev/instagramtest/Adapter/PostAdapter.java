@@ -331,13 +331,15 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ImageViewHolde
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference()
                 .child("Users").child(userid);
 
-        reference.addValueEventListener(new ValueEventListener() {
+        final ValueEventListener valueEventListener = reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                User user = dataSnapshot.getValue(User.class);
-                Glide.with(mContext).load(user.getImageurl()).into(image_profile);
-                username.setText(user.getUsername());
-                publisher.setText(user.getUsername());
+                if (dataSnapshot.exists()) {
+                    User user = dataSnapshot.getValue(User.class);
+                    Glide.with(mContext).load(user.getImageurl()).into(image_profile);
+                    username.setText(user.getUsername());
+                    publisher.setText(user.getUsername());
+                }
             }
 
             @Override

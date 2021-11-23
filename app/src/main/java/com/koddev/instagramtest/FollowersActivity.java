@@ -165,15 +165,15 @@ public class FollowersActivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 userList.clear();
-                for (DataSnapshot snapshot : dataSnapshot.getChildren()){
-                    User user = snapshot.getValue(User.class);
-                    for (String id : idList){
-                        if (user.getId().equals(id)){
-                            userList.add(user);
+                    for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+                        User user = snapshot.getValue(User.class);
+                        for (String id : idList) {
+                            if (user.getId().equals(id)) {
+                                userList.add(user);
+                            }
                         }
                     }
-                }
-                userAdapter.notifyDataSetChanged();
+                    userAdapter.notifyDataSetChanged();
             }
 
             @Override

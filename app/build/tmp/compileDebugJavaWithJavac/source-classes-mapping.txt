@@ -1,21 +1,9 @@
 com/koddev/instagramtest/BuildConfig.java
  com.koddev.instagramtest.BuildConfig
-com/koddev/instagramtest/Fragments/ProfileFragment.java
- com.koddev.instagramtest.Fragments.ProfileFragment
- com.koddev.instagramtest.Fragments.ProfileFragment$1
- com.koddev.instagramtest.Fragments.ProfileFragment$10
- com.koddev.instagramtest.Fragments.ProfileFragment$11
- com.koddev.instagramtest.Fragments.ProfileFragment$12
- com.koddev.instagramtest.Fragments.ProfileFragment$13
- com.koddev.instagramtest.Fragments.ProfileFragment$14
- com.koddev.instagramtest.Fragments.ProfileFragment$2
- com.koddev.instagramtest.Fragments.ProfileFragment$3
- com.koddev.instagramtest.Fragments.ProfileFragment$4
- com.koddev.instagramtest.Fragments.ProfileFragment$5
- com.koddev.instagramtest.Fragments.ProfileFragment$6
- com.koddev.instagramtest.Fragments.ProfileFragment$7
- com.koddev.instagramtest.Fragments.ProfileFragment$8
- com.koddev.instagramtest.Fragments.ProfileFragment$9
+com/koddev/instagramtest/OptionsActivity.java
+ com.koddev.instagramtest.OptionsActivity
+ com.koddev.instagramtest.OptionsActivity$1
+ com.koddev.instagramtest.OptionsActivity$2
 com/koddev/instagramtest/LoginActivity.java
  com.koddev.instagramtest.LoginActivity
  com.koddev.instagramtest.LoginActivity$1
@@ -40,31 +28,12 @@ com/koddev/instagramtest/MainActivity.java
  com.koddev.instagramtest.MainActivity$1
 com/koddev/instagramtest/Model/Comment.java
  com.koddev.instagramtest.Model.Comment
-com/koddev/instagramtest/Adapter/PostAdapter.java
- com.koddev.instagramtest.Adapter.PostAdapter
- com.koddev.instagramtest.Adapter.PostAdapter$1
- com.koddev.instagramtest.Adapter.PostAdapter$10
- com.koddev.instagramtest.Adapter.PostAdapter$10$1
- com.koddev.instagramtest.Adapter.PostAdapter$10$1$1
- com.koddev.instagramtest.Adapter.PostAdapter$11
- com.koddev.instagramtest.Adapter.PostAdapter$11$1
- com.koddev.instagramtest.Adapter.PostAdapter$12
- com.koddev.instagramtest.Adapter.PostAdapter$13
- com.koddev.instagramtest.Adapter.PostAdapter$14
- com.koddev.instagramtest.Adapter.PostAdapter$15
- com.koddev.instagramtest.Adapter.PostAdapter$16
- com.koddev.instagramtest.Adapter.PostAdapter$17
- com.koddev.instagramtest.Adapter.PostAdapter$18
- com.koddev.instagramtest.Adapter.PostAdapter$19
- com.koddev.instagramtest.Adapter.PostAdapter$2
- com.koddev.instagramtest.Adapter.PostAdapter$3
- com.koddev.instagramtest.Adapter.PostAdapter$4
- com.koddev.instagramtest.Adapter.PostAdapter$5
- com.koddev.instagramtest.Adapter.PostAdapter$6
- com.koddev.instagramtest.Adapter.PostAdapter$7
- com.koddev.instagramtest.Adapter.PostAdapter$8
- com.koddev.instagramtest.Adapter.PostAdapter$9
- com.koddev.instagramtest.Adapter.PostAdapter$ImageViewHolder
+com/koddev/instagramtest/CommentsActivity.java
+ com.koddev.instagramtest.CommentsActivity
+ com.koddev.instagramtest.CommentsActivity$1
+ com.koddev.instagramtest.CommentsActivity$2
+ com.koddev.instagramtest.CommentsActivity$3
+ com.koddev.instagramtest.CommentsActivity$4
 com/koddev/instagramtest/AddStoryActivity.java
  com.koddev.instagramtest.AddStoryActivity
  com.koddev.instagramtest.AddStoryActivity$1
@@ -75,7 +44,6 @@ com/koddev/instagramtest/RegisterActivity.java
  com.koddev.instagramtest.RegisterActivity$1
  com.koddev.instagramtest.RegisterActivity$2
  com.koddev.instagramtest.RegisterActivity$3
- com.koddev.instagramtest.RegisterActivity$3$1
 com/koddev/instagramtest/Model/User.java
  com.koddev.instagramtest.Model.User
 com/koddev/instagramtest/Model/Story.java
@@ -96,31 +64,27 @@ com/koddev/instagramtest/StartActivity.java
  com.koddev.instagramtest.StartActivity
  com.koddev.instagramtest.StartActivity$1
  com.koddev.instagramtest.StartActivity$2
-com/koddev/instagramtest/StoryActivity.java
- com.koddev.instagramtest.StoryActivity
- com.koddev.instagramtest.StoryActivity$1
- com.koddev.instagramtest.StoryActivity$2
- com.koddev.instagramtest.StoryActivity$3
- com.koddev.instagramtest.StoryActivity$4
- com.koddev.instagramtest.StoryActivity$5
- com.koddev.instagramtest.StoryActivity$5$1
- com.koddev.instagramtest.StoryActivity$6
- com.koddev.instagramtest.StoryActivity$7
- com.koddev.instagramtest.StoryActivity$8
+com/koddev/instagramtest/Fragments/HomeFragment.java
+ com.koddev.instagramtest.Fragments.HomeFragment
+ com.koddev.instagramtest.Fragments.HomeFragment$1
+ com.koddev.instagramtest.Fragments.HomeFragment$2
+ com.koddev.instagramtest.Fragments.HomeFragment$3
 com/koddev/instagramtest/Adapter/NotificationAdapter.java
  com.koddev.instagramtest.Adapter.NotificationAdapter
  com.koddev.instagramtest.Adapter.NotificationAdapter$1
  com.koddev.instagramtest.Adapter.NotificationAdapter$2
  com.koddev.instagramtest.Adapter.NotificationAdapter$3
  com.koddev.instagramtest.Adapter.NotificationAdapter$ImageViewHolder
-com/koddev/instagramtest/FollowersActivity.java
- com.koddev.instagramtest.FollowersActivity
- com.koddev.instagramtest.FollowersActivity$1
- com.koddev.instagramtest.FollowersActivity$2
- com.koddev.instagramtest.FollowersActivity$3
- com.koddev.instagramtest.FollowersActivity$4
- com.koddev.instagramtest.FollowersActivity$5
- com.koddev.instagramtest.FollowersActivity$6
+com/koddev/instagramtest/Adapter/CommentAdapter.java
+ com.koddev.instagramtest.Adapter.CommentAdapter
+ com.koddev.instagramtest.Adapter.CommentAdapter$1
+ com.koddev.instagramtest.Adapter.CommentAdapter$2
+ com.koddev.instagramtest.Adapter.CommentAdapter$3
+ com.koddev.instagramtest.Adapter.CommentAdapter$3$1
+ com.koddev.instagramtest.Adapter.CommentAdapter$3$2
+ com.koddev.instagramtest.Adapter.CommentAdapter$3$2$1
+ com.koddev.instagramtest.Adapter.CommentAdapter$4
+ com.koddev.instagramtest.Adapter.CommentAdapter$ImageViewHolder
 com/koddev/instagramtest/EditProfileActivity.java
  com.koddev.instagramtest.EditProfileActivity
  com.koddev.instagramtest.EditProfileActivity$1
@@ -147,28 +111,63 @@ com/koddev/instagramtest/Fragments/SearchFragment.java
 com/koddev/instagramtest/Fragments/PostDetailFragment.java
  com.koddev.instagramtest.Fragments.PostDetailFragment
  com.koddev.instagramtest.Fragments.PostDetailFragment$1
-com/koddev/instagramtest/CommentsActivity.java
- com.koddev.instagramtest.CommentsActivity
- com.koddev.instagramtest.CommentsActivity$1
- com.koddev.instagramtest.CommentsActivity$2
- com.koddev.instagramtest.CommentsActivity$3
- com.koddev.instagramtest.CommentsActivity$4
-com/koddev/instagramtest/Adapter/CommentAdapter.java
- com.koddev.instagramtest.Adapter.CommentAdapter
- com.koddev.instagramtest.Adapter.CommentAdapter$1
- com.koddev.instagramtest.Adapter.CommentAdapter$2
- com.koddev.instagramtest.Adapter.CommentAdapter$3
- com.koddev.instagramtest.Adapter.CommentAdapter$3$1
- com.koddev.instagramtest.Adapter.CommentAdapter$3$2
- com.koddev.instagramtest.Adapter.CommentAdapter$3$2$1
- com.koddev.instagramtest.Adapter.CommentAdapter$4
- com.koddev.instagramtest.Adapter.CommentAdapter$ImageViewHolder
-com/koddev/instagramtest/Fragments/HomeFragment.java
- com.koddev.instagramtest.Fragments.HomeFragment
- com.koddev.instagramtest.Fragments.HomeFragment$1
- com.koddev.instagramtest.Fragments.HomeFragment$2
- com.koddev.instagramtest.Fragments.HomeFragment$3
-com/koddev/instagramtest/OptionsActivity.java
- com.koddev.instagramtest.OptionsActivity
- com.koddev.instagramtest.OptionsActivity$1
- com.koddev.instagramtest.OptionsActivity$2
+com/koddev/instagramtest/Fragments/ProfileFragment.java
+ com.koddev.instagramtest.Fragments.ProfileFragment
+ com.koddev.instagramtest.Fragments.ProfileFragment$1
+ com.koddev.instagramtest.Fragments.ProfileFragment$10
+ com.koddev.instagramtest.Fragments.ProfileFragment$11
+ com.koddev.instagramtest.Fragments.ProfileFragment$12
+ com.koddev.instagramtest.Fragments.ProfileFragment$13
+ com.koddev.instagramtest.Fragments.ProfileFragment$14
+ com.koddev.instagramtest.Fragments.ProfileFragment$2
+ com.koddev.instagramtest.Fragments.ProfileFragment$3
+ com.koddev.instagramtest.Fragments.ProfileFragment$4
+ com.koddev.instagramtest.Fragments.ProfileFragment$5
+ com.koddev.instagramtest.Fragments.ProfileFragment$6
+ com.koddev.instagramtest.Fragments.ProfileFragment$7
+ com.koddev.instagramtest.Fragments.ProfileFragment$8
+ com.koddev.instagramtest.Fragments.ProfileFragment$9
+com/koddev/instagramtest/StoryActivity.java
+ com.koddev.instagramtest.StoryActivity
+ com.koddev.instagramtest.StoryActivity$1
+ com.koddev.instagramtest.StoryActivity$2
+ com.koddev.instagramtest.StoryActivity$3
+ com.koddev.instagramtest.StoryActivity$4
+ com.koddev.instagramtest.StoryActivity$5
+ com.koddev.instagramtest.StoryActivity$5$1
+ com.koddev.instagramtest.StoryActivity$6
+ com.koddev.instagramtest.StoryActivity$7
+ com.koddev.instagramtest.StoryActivity$8
+com/koddev/instagramtest/FollowersActivity.java
+ com.koddev.instagramtest.FollowersActivity
+ com.koddev.instagramtest.FollowersActivity$1
+ com.koddev.instagramtest.FollowersActivity$2
+ com.koddev.instagramtest.FollowersActivity$3
+ com.koddev.instagramtest.FollowersActivity$4
+ com.koddev.instagramtest.FollowersActivity$5
+ com.koddev.instagramtest.FollowersActivity$6
+com/koddev/instagramtest/Adapter/PostAdapter.java
+ com.koddev.instagramtest.Adapter.PostAdapter
+ com.koddev.instagramtest.Adapter.PostAdapter$1
+ com.koddev.instagramtest.Adapter.PostAdapter$10
+ com.koddev.instagramtest.Adapter.PostAdapter$10$1
+ com.koddev.instagramtest.Adapter.PostAdapter$10$1$1
+ com.koddev.instagramtest.Adapter.PostAdapter$11
+ com.koddev.instagramtest.Adapter.PostAdapter$11$1
+ com.koddev.instagramtest.Adapter.PostAdapter$12
+ com.koddev.instagramtest.Adapter.PostAdapter$13
+ com.koddev.instagramtest.Adapter.PostAdapter$14
+ com.koddev.instagramtest.Adapter.PostAdapter$15
+ com.koddev.instagramtest.Adapter.PostAdapter$16
+ com.koddev.instagramtest.Adapter.PostAdapter$17
+ com.koddev.instagramtest.Adapter.PostAdapter$18
+ com.koddev.instagramtest.Adapter.PostAdapter$19
+ com.koddev.instagramtest.Adapter.PostAdapter$2
+ com.koddev.instagramtest.Adapter.PostAdapter$3
+ com.koddev.instagramtest.Adapter.PostAdapter$4
+ com.koddev.instagramtest.Adapter.PostAdapter$5
+ com.koddev.instagramtest.Adapter.PostAdapter$6
+ com.koddev.instagramtest.Adapter.PostAdapter$7
+ com.koddev.instagramtest.Adapter.PostAdapter$8
+ com.koddev.instagramtest.Adapter.PostAdapter$9
+ com.koddev.instagramtest.Adapter.PostAdapter$ImageViewHolder

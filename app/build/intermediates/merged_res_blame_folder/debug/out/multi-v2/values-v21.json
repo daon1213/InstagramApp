@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\d3d639ee996b48defaf7237d026da202\\transformed\\core-1.0.0\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-3\\174bbb4a61dbf7a2968058dd2cc8c5b0\\transformed\\core-1.2.0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

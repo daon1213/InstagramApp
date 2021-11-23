@@ -28,7 +28,7 @@ public class RegisterActivity extends AppCompatActivity {
     Button register;
     TextView txt_login;
 
-    FirebaseAuth auth;
+    FirebaseAuth auth = FirebaseAuth.getInstance();
     DatabaseReference reference;
     ProgressDialog pd;
 
@@ -43,8 +43,6 @@ public class RegisterActivity extends AppCompatActivity {
         password = findViewById(R.id.password);
         register = findViewById(R.id.register);
         txt_login = findViewById(R.id.txt_login);
-
-        auth = FirebaseAuth.getInstance();
 
         txt_login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -90,18 +88,15 @@ public class RegisterActivity extends AppCompatActivity {
                             map.put("id", userID);
                             map.put("username", username.toLowerCase());
                             map.put("fullname", fullname);
-                            map.put("imageurl", "https://firebasestorage.googleapis.com/v0/b/instagramtest-fcbef.appspot.com/o/placeholder.png?alt=media&token=b09b809d-a5f8-499b-9563-5252262e9a49");
+                            map.put("imageurl", "https://firebasestorage.googleapis.com/v0/b/instagram-2f686.appspot.com/o/placeholder.jpg?alt=media&token=bbf1cb04-55e8-42d5-a874-74324a261682");
                             map.put("bio", "");
 
-                            reference.setValue(map).addOnCompleteListener(new OnCompleteListener<Void>() {
-                                @Override
-                                public void onComplete(Task<Void> task) {
-                                    if (task.isSuccessful()){
-                                        pd.dismiss();
-                                        Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
-                                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-                                        startActivity(intent);
-                                    }
+                            reference.setValue(map).addOnCompleteListener(task1 -> {
+                                if (task1.isSuccessful()){
+                                    pd.dismiss();
+                                    Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
+                                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                                    startActivity(intent);
                                 }
                             });
                         } else {

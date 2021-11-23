@@ -55,5 +55,5 @@
     <string name="crop_image_menu_rotate_right">Pivoter à droite</string>
     <string name="pick_image_intent_chooser_title">Sélectionner la source</string>
     <string msgid="146198913615257606" name="search_menu_title">"Rechercher"</string>
-    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

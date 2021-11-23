@@ -408,6 +408,10 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\build\\intermediates\\merged_res\\debug\\xml_backup_descriptor.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\src\\main\\res\\xml\\backup_descriptor.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_add_story.png.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\src\\main\\res\\drawable-hdpi\\add_story.png"
     },

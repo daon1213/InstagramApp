@@ -34,35 +34,6 @@
           ]
         }
       }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:396955090297:android:930fe4f656f263816303a8",
-        "android_client_info": {
-          "package_name": "org.techtown.instagram"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "396955090297-3lncb0n57dfprc64v83a1ct1lat75img.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDMSPSFLF3ihk0Sn3ZUMJeczh1XMiRwVdU"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "396955090297-3lncb0n57dfprc64v83a1ct1lat75img.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
     }
   ],
   "configuration_version": "1"
