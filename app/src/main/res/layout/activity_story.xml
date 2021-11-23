@@ -46,10 +46,10 @@
         android:layout_margin="10dp">
 
         <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/story_photo"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_centerVertical="true"
-            android:id="@+id/story_photo"/>
+            android:layout_centerVertical="true" />
 
         <TextView
             android:layout_width="wrap_content"

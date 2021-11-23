@@ -18,6 +18,7 @@ import com.koddev.instagramtest.Model.User;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class FollowersActivity extends AppCompatActivity {
 
@@ -168,7 +169,7 @@ public class FollowersActivity extends AppCompatActivity {
                     for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                         User user = snapshot.getValue(User.class);
                         for (String id : idList) {
-                            if (user.getId().equals(id)) {
+                            if (Objects.equals(user.getId(), id)) {
                                 userList.add(user);
                             }
                         }
