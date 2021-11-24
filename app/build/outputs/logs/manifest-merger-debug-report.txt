@@ -191,11 +191,11 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\
 	android:fullBackupContent
 		ADDED from C:\Users\user\AndroidStudioProjects\InstagramApp-master\InstagramApp-master\app\src\main\AndroidManifest.xml:19:9-59
 	android:roundIcon
-		ADDED from C:\Users\user\AndroidStudioProjects\InstagramApp-master\InstagramApp-master\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from C:\Users\user\AndroidStudioProjects\InstagramApp-master\InstagramApp-master\app\src\main\AndroidManifest.xml:15:9-50
 	tools:targetApi
 		ADDED from C:\Users\user\AndroidStudioProjects\InstagramApp-master\InstagramApp-master\app\src\main\AndroidManifest.xml:18:9-28
 	android:icon
-		ADDED from C:\Users\user\AndroidStudioProjects\InstagramApp-master\InstagramApp-master\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from C:\Users\user\AndroidStudioProjects\InstagramApp-master\InstagramApp-master\app\src\main\AndroidManifest.xml:13:9-39
 	android:allowBackup
 		ADDED from C:\Users\user\AndroidStudioProjects\InstagramApp-master\InstagramApp-master\app\src\main\AndroidManifest.xml:11:9-35
 	android:theme

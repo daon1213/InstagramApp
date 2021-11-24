@@ -28,7 +28,6 @@ public class FollowersActivity extends AppCompatActivity {
 
     private List<String> idList;
 
-    RecyclerView recyclerView;
     UserAdapter userAdapter;
     List<User> userList;
 
@@ -37,6 +36,7 @@ public class FollowersActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_followers);
 
+        RecyclerView recyclerview = findViewById(R.id.recycler_view);
         Intent intent = getIntent();
         id = intent.getStringExtra("id");
         title = intent.getStringExtra("title");
@@ -53,12 +53,11 @@ public class FollowersActivity extends AppCompatActivity {
             }
         });
 
-        recyclerView = findViewById(R.id.recycler_view);
-        recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerview.setHasFixedSize(true);
+        recyclerview.setLayoutManager(new LinearLayoutManager(this));
         userList = new ArrayList<>();
         userAdapter = new UserAdapter(this, userList, false);
-        recyclerView.setAdapter(userAdapter);
+        recyclerview.setAdapter(userAdapter);
 
         idList = new ArrayList<>();
 
