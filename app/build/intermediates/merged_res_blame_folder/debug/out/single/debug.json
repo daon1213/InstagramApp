@@ -88,12 +88,12 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\src\\main\\res\\drawable-mdpi\\ic_search.png"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_home.png.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_home.png"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_home.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\src\\main\\res\\drawable-xhdpi\\ic_home.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\build\\intermediates\\merged_res\\debug\\layout_user_item.xml.flat",
@@ -108,12 +108,12 @@
         "source": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\src\\main\\res\\mipmap-xhdpi\\ic_icon.png"
     },
     {
-        "merged": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_story_delete.png.flat",
-        "source": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\src\\main\\res\\drawable-xxhdpi\\story_delete.png"
-    },
-    {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_inbox.png.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\src\\main\\res\\drawable-mdpi\\ic_inbox.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_story_delete.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\src\\main\\res\\drawable-xxhdpi\\story_delete.png"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\build\\intermediates\\merged_res\\debug\\color_selector.xml.flat",
@@ -302,6 +302,10 @@
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\build\\intermediates\\merged_res\\debug\\layout_add_story_item.xml.flat",
         "source": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\src\\main\\res\\layout\\add_story_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_chat.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\src\\main\\res\\layout\\activity_chat.xml"
     },
     {
         "merged": "C:\\Users\\user\\AndroidStudioProjects\\InstagramApp-master\\InstagramApp-master\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_liked.png.flat",

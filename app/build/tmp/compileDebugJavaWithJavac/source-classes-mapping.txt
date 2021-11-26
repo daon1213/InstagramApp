@@ -35,9 +35,10 @@ com/koddev/instagramtest/Adapter/MyFotosAdapter.java
  com.koddev.instagramtest.Adapter.MyFotosAdapter
  com.koddev.instagramtest.Adapter.MyFotosAdapter$1
  com.koddev.instagramtest.Adapter.MyFotosAdapter$ImageViewHolder
-com/koddev/instagramtest/MainActivity.java
- com.koddev.instagramtest.MainActivity
- com.koddev.instagramtest.MainActivity$1
+com/koddev/instagramtest/OptionsActivity.java
+ com.koddev.instagramtest.OptionsActivity
+ com.koddev.instagramtest.OptionsActivity$1
+ com.koddev.instagramtest.OptionsActivity$2
 com/koddev/instagramtest/Model/Comment.java
  com.koddev.instagramtest.Model.Comment
 com/koddev/instagramtest/Adapter/PostAdapter.java
@@ -91,6 +92,8 @@ com/koddev/instagramtest/PostActivity.java
  com.koddev.instagramtest.PostActivity$3
  com.koddev.instagramtest.PostActivity$4
  com.koddev.instagramtest.PostActivity$5
+com/koddev/instagramtest/ChatActivity.java
+ com.koddev.instagramtest.ChatActivity
 com/koddev/instagramtest/StartActivity.java
  com.koddev.instagramtest.StartActivity
  com.koddev.instagramtest.StartActivity$1
@@ -162,12 +165,11 @@ com/koddev/instagramtest/Adapter/CommentAdapter.java
  com.koddev.instagramtest.Adapter.CommentAdapter$3$2$1
  com.koddev.instagramtest.Adapter.CommentAdapter$4
  com.koddev.instagramtest.Adapter.CommentAdapter$ImageViewHolder
+com/koddev/instagramtest/MainActivity.java
+ com.koddev.instagramtest.MainActivity
+ com.koddev.instagramtest.MainActivity$1
 com/koddev/instagramtest/Fragments/HomeFragment.java
  com.koddev.instagramtest.Fragments.HomeFragment
  com.koddev.instagramtest.Fragments.HomeFragment$1
  com.koddev.instagramtest.Fragments.HomeFragment$2
  com.koddev.instagramtest.Fragments.HomeFragment$3
-com/koddev/instagramtest/OptionsActivity.java
- com.koddev.instagramtest.OptionsActivity
- com.koddev.instagramtest.OptionsActivity$1
- com.koddev.instagramtest.OptionsActivity$2

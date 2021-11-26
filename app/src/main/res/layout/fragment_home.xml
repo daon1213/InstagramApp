@@ -30,12 +30,14 @@
                     android:layout_marginLeft="-20dp"
                     android:src="@drawable/logo" />
 
-                <ImageView
+                <ImageButton
+                    android:id="@+id/btnmessage"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="10dp"
+                    android:background="#FAFAFA"
                     android:src="@drawable/ic_inbox" />
 
 

@@ -1,9 +1,12 @@
 package com.koddev.instagramtest.Fragments;
 
+import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
 
 import androidx.fragment.app.Fragment;
@@ -18,6 +21,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.koddev.instagramtest.Adapter.PostAdapter;
 import com.koddev.instagramtest.Adapter.StoryAdapter;
+import com.koddev.instagramtest.ChatActivity;
 import com.koddev.instagramtest.Model.Post;
 import com.koddev.instagramtest.Model.Story;
 import com.koddev.instagramtest.R;
@@ -29,6 +33,7 @@ public class HomeFragment extends Fragment {
 
     private RecyclerView recyclerView;
     private PostAdapter postAdapter;
+    private ImageButton imageButton;
     private List<Post> postList;
 
     private RecyclerView recyclerView_story;

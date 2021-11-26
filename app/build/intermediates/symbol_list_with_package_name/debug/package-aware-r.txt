@@ -1273,6 +1273,7 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btn_follow
+id btnmessage
 id buttonPanel
 id cancel_action
 id center
@@ -1576,6 +1577,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_story
+layout activity_chat
 layout activity_comments
 layout activity_edit_profile
 layout activity_followers
