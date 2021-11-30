@@ -109,9 +109,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Program Files\Android\Android Studio\plugins\android\resources\images\asset_studio\ic_insta.png" />
-                                                <entry key="scalingPercent" value="145" />
-                                                <entry key="trimmed" value="true" />
+                                                <entry key="imagePath" value="C:\Program Files\Android\Android Studio\plugins\android\resources\images\asset_studio\Outstagram.png" />
+                                                <entry key="scalingPercent" value="68" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -143,7 +142,7 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="ic_icon" />
+                                      <entry key="outputName" value="ic_outsta" />
                                     </map>
                                   </option>
                                 </PersistentState>

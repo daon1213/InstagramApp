@@ -1159,6 +1159,7 @@ drawable ic_more
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_outsta_background
 drawable ic_profile
 drawable ic_save
 drawable ic_save_black
@@ -1182,6 +1183,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable out_logo
+drawable outsta_logo
 drawable placeholder
 drawable story_delete
 drawable story_view
@@ -1644,11 +1647,11 @@ layout user_item
 menu bottom_navigation
 menu crop_image_menu
 menu post_menu
-mipmap ic_icon
-mipmap ic_icon_foreground
-mipmap ic_icon_round
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap ic_outsta
+mipmap ic_outsta_foreground
+mipmap ic_outsta_round
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description

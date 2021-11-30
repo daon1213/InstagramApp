@@ -28,45 +28,45 @@ import java.util.HashMap;
 
 public class AddStoryActivity extends AppCompatActivity{
 
-    private Uri mImageUri;
-    String miUrlOk = "";
-    private StorageTask uploadTask;
-    StorageReference storageRef;
+    private Uri mImageUri; // 이미지 주소값 전달
+    String miUrlOk = ""; // 이미지 형식 확인
+    private StorageTask uploadTask; // 스토리 업로드 진행
+    StorageReference storageRef; // 저장권한 확인
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_story);
 
-        storageRef = FirebaseStorage.getInstance().getReference("story");
+        storageRef = FirebaseStorage.getInstance().getReference("story"); // Firebase Rt에 "story"라는 이름으로 데이터 저장
 
-        CropImage.activity()
+        CropImage.activity() // 이미지 자르기 옵션
                 .setAspectRatio(9,16)
                 .start(AddStoryActivity.this);
     }
 
     @Override
-    protected void onTitleChanged(CharSequence title, int color) {
+    protected void onTitleChanged(CharSequence title, int color) { // 스토리 이름 변경
         super.onTitleChanged(title, color);
     }
 
-    private String getFileExtension(Uri uri){
+    private String getFileExtension(Uri uri){ // 파일(갤러리) 접근 권한
         ContentResolver cR = getContentResolver();
         MimeTypeMap mime = MimeTypeMap.getSingleton();
-        return mime.getExtensionFromMimeType(cR.getType(uri));
+        return mime.getExtensionFromMimeType(cR.getType(uri)); // 이미지 형식 타입 주소 권한
     }
 
-    private void uploadImage_10(){
+    private void uploadImage_10(){ // 이미지 업로드
         final ProgressDialog pd = new ProgressDialog(this);
-        pd.setMessage("Posting");
+        pd.setMessage("Posting"); // 화면 중간 포스팅 메시지 출력
         pd.show();
         if (mImageUri != null){
             final StorageReference fileReference = storageRef.child(System.currentTimeMillis()
-                    + "." + getFileExtension(mImageUri));
+                    + "." + getFileExtension(mImageUri)); // 저장소 접근권한 관리
 
-            uploadTask = fileReference.putFile(mImageUri);
+            uploadTask = fileReference.putFile(mImageUri); // 파일 업로드
             uploadTask.continueWithTask(new Continuation<UploadTask.TaskSnapshot, Task<Uri>>() {
-                @Override
+                @Override // Firebase Rt에 스토리 올린 사람의 정보를 가져오는 코드 <- 스토리를 누가 올렸는지 검사
                 public Task<Uri> then(Task<UploadTask.TaskSnapshot> task) throws Exception {
                     if (!task.isSuccessful()) {
                         throw task.getException();
