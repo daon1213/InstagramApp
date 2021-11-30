@@ -133,6 +133,7 @@ public class AddStoryActivity extends AppCompatActivity{
             startActivity(new Intent(AddStoryActivity.this, MainActivity.class));
             finish();
         }
+
     }
 
     @Override
