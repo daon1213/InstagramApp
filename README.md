@@ -1,2 +1,2 @@
 # InstagramApp
-Using JAVA make similar Instagram
+Using JAVA make similar Instagram App
